@@ -8,4 +8,5 @@ User -> "Mock SSO": Authentication Request
 "Mock SSO" -> User: Confirms user authority by giving an access token
 
 User -> "apsi-backend": Authentication Request with access token
+"apsi-backend" --> User: Register account based on data from SSO or find already existing one and return JWT token
 @enduml
