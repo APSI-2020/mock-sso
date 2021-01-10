@@ -4,7 +4,7 @@ User -> "apsi-backend": Authentication Request
 "apsi-backend" --> User: Respond with URL to mock SSO
 
 User -> "Mock SSO": Authentication Request
-"Mock SSO" -> "apsi-backend": Confirms user authority by giving an access token
+"Mock SSO" -> "apsi-backend": Confirms user authority by giving an access token and provides user data
 "Mock SSO" -> User: Confirms user authority by giving an access token
 
 User -> "apsi-backend": Authentication Request with access token
