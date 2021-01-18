@@ -29,4 +29,7 @@ public class User {
     @NonNull
     @JsonProperty("last_name")
     String lastName;
+
+    @JsonProperty("is_lecturer")
+    boolean isLecturer;
 }

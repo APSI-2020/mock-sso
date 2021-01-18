@@ -19,6 +19,7 @@ public class InMemoryUsersRepository implements UsersRepository {
                             .password("haslomaslo")
                             .firstName("James")
                             .lastName("Bond")
+                            .isLecturer(true)
                             .build()
                     )
             .build();
